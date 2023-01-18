@@ -79,7 +79,7 @@
 		5B2D96DE29789CB7000B8B2B = {
 			isa = PBXGroup;
 			children = (
-				5B2D96E929789CB7000B8B2B /* 20230118-HasnainKhan-NYCSchools */,
+				5B2D96E929789CB7000B8B2B /* Application */,
 				5B2D971D2978A19A000B8B2B /* Tests */,
 				5B2D96E829789CB7000B8B2B /* Products */,
 			);
@@ -95,7 +95,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B2D96E929789CB7000B8B2B /* 20230118-HasnainKhan-NYCSchools */ = {
+		5B2D96E929789CB7000B8B2B /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				5B2D971C2978A181000B8B2B /* Controller */,
@@ -106,7 +106,7 @@
 				5B2D96F529789CB8000B8B2B /* LaunchScreen.storyboard */,
 				5B2D96F829789CB8000B8B2B /* Info.plist */,
 			);
-			path = "20230118-HasnainKhan-NYCSchools";
+			path = Application;
 			sourceTree = "<group>";
 		};
 		5B2D970029789CB8000B8B2B /* ModelTests */ = {
@@ -114,7 +114,6 @@
 			children = (
 				5B2D970D29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift */,
 				5B2D970129789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsTests.swift */,
-				5B2D970A29789CB8000B8B2B /* UITests */,
 			);
 			path = ModelTests;
 			sourceTree = "<group>";
@@ -154,6 +153,7 @@
 		5B2D971D2978A19A000B8B2B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				5B2D970A29789CB8000B8B2B /* UITests */,
 				5B2D970029789CB8000B8B2B /* ModelTests */,
 			);
 			path = Tests;
