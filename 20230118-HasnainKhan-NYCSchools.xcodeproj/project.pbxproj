@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -79,9 +79,8 @@
 		5B775B462978B18B00733ACC = {
 			isa = PBXGroup;
 			children = (
-				5B775B512978B18B00733ACC /* 20230118-HasnainKhan-NYCSchools */,
-				5B775B682978B18C00733ACC /* 20230118-HasnainKhan-NYCSchoolsTests */,
-				5B775B722978B18C00733ACC /* 20230118-HasnainKhan-NYCSchoolsUITests */,
+				5B775B862978B4FA00733ACC /* Tests */,
+				5B775B512978B18B00733ACC /* Application */,
 				5B775B502978B18B00733ACC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,35 +95,76 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B775B512978B18B00733ACC /* 20230118-HasnainKhan-NYCSchools */ = {
+		5B775B512978B18B00733ACC /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				5B775B522978B18B00733ACC /* AppDelegate.swift */,
-				5B775B542978B18B00733ACC /* SceneDelegate.swift */,
-				5B775B562978B18B00733ACC /* ViewController.swift */,
-				5B775B582978B18B00733ACC /* Main.storyboard */,
-				5B775B5B2978B18C00733ACC /* Assets.xcassets */,
-				5B775B5D2978B18C00733ACC /* LaunchScreen.storyboard */,
-				5B775B602978B18C00733ACC /* Info.plist */,
+				5B775B852978B45500733ACC /* Assets */,
+				5B775B842978B44100733ACC /* Controller */,
+				5B775B832978B43B00733ACC /* View */,
+				5B775B822978B42C00733ACC /* Model */,
 			);
-			path = "20230118-HasnainKhan-NYCSchools";
+			path = Application;
 			sourceTree = "<group>";
 		};
-		5B775B682978B18C00733ACC /* 20230118-HasnainKhan-NYCSchoolsTests */ = {
+		5B775B682978B18C00733ACC /* ModelTests */ = {
 			isa = PBXGroup;
 			children = (
 				5B775B692978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsTests.swift */,
 			);
-			path = "20230118-HasnainKhan-NYCSchoolsTests";
+			path = ModelTests;
 			sourceTree = "<group>";
 		};
-		5B775B722978B18C00733ACC /* 20230118-HasnainKhan-NYCSchoolsUITests */ = {
+		5B775B722978B18C00733ACC /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				5B775B732978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITests.swift */,
 				5B775B752978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift */,
 			);
-			path = "20230118-HasnainKhan-NYCSchoolsUITests";
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		5B775B822978B42C00733ACC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B775B522978B18B00733ACC /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B775B832978B43B00733ACC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B775B542978B18B00733ACC /* SceneDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B775B842978B44100733ACC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B775B562978B18B00733ACC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B775B852978B45500733ACC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5B775B582978B18B00733ACC /* Main.storyboard */,
+				5B775B5B2978B18C00733ACC /* Assets.xcassets */,
+				5B775B5D2978B18C00733ACC /* LaunchScreen.storyboard */,
+				5B775B602978B18C00733ACC /* Info.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5B775B862978B4FA00733ACC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B775B722978B18C00733ACC /* UITests */,
+				5B775B682978B18C00733ACC /* ModelTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +247,7 @@
 				};
 			};
 			buildConfigurationList = 5B775B4A2978B18B00733ACC /* Build configuration list for PBXProject "20230118-HasnainKhan-NYCSchools" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -438,12 +478,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "20230118-HasnainKhan-NYCSchools/Info.plist";
+				INFOPLIST_FILE = Application/Assets/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +507,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "20230118-HasnainKhan-NYCSchools/Info.plist";
+				INFOPLIST_FILE = Application/Assets/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
