@@ -15,7 +15,7 @@
 		5B2D96F729789CB8000B8B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D96F529789CB8000B8B2B /* LaunchScreen.storyboard */; };
 		5B2D970229789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D970129789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsTests.swift */; };
 		5B2D970C29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D970B29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITests.swift */; };
-		5B2D970E29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D970D29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift */; };
+		5B2D971E2978A1E2000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D970D29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,8 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				5B2D96E929789CB7000B8B2B /* 20230118-HasnainKhan-NYCSchools */,
-				5B2D970029789CB8000B8B2B /* 20230118-HasnainKhan-NYCSchoolsTests */,
-				5B2D970A29789CB8000B8B2B /* 20230118-HasnainKhan-NYCSchoolsUITests */,
+				5B2D971D2978A19A000B8B2B /* Tests */,
 				5B2D96E829789CB7000B8B2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,9 +98,9 @@
 		5B2D96E929789CB7000B8B2B /* 20230118-HasnainKhan-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
-				5B2D96EA29789CB7000B8B2B /* AppDelegate.swift */,
-				5B2D96EC29789CB7000B8B2B /* SceneDelegate.swift */,
-				5B2D96EE29789CB7000B8B2B /* ViewController.swift */,
+				5B2D971C2978A181000B8B2B /* Controller */,
+				5B2D971B2978A179000B8B2B /* View */,
+				5B2D971A2978A16B000B8B2B /* Main */,
 				5B2D96F029789CB7000B8B2B /* Main.storyboard */,
 				5B2D96F329789CB8000B8B2B /* Assets.xcassets */,
 				5B2D96F529789CB8000B8B2B /* LaunchScreen.storyboard */,
@@ -110,21 +109,54 @@
 			path = "20230118-HasnainKhan-NYCSchools";
 			sourceTree = "<group>";
 		};
-		5B2D970029789CB8000B8B2B /* 20230118-HasnainKhan-NYCSchoolsTests */ = {
+		5B2D970029789CB8000B8B2B /* ModelTests */ = {
 			isa = PBXGroup;
 			children = (
+				5B2D970D29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift */,
 				5B2D970129789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsTests.swift */,
+				5B2D970A29789CB8000B8B2B /* UITests */,
 			);
-			path = "20230118-HasnainKhan-NYCSchoolsTests";
+			path = ModelTests;
 			sourceTree = "<group>";
 		};
-		5B2D970A29789CB8000B8B2B /* 20230118-HasnainKhan-NYCSchoolsUITests */ = {
+		5B2D970A29789CB8000B8B2B /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				5B2D970B29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITests.swift */,
-				5B2D970D29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift */,
 			);
-			path = "20230118-HasnainKhan-NYCSchoolsUITests";
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		5B2D971A2978A16B000B8B2B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D96EA29789CB7000B8B2B /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5B2D971B2978A179000B8B2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D96EC29789CB7000B8B2B /* SceneDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B2D971C2978A181000B8B2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D96EE29789CB7000B8B2B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B2D971D2978A19A000B8B2B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D970029789CB8000B8B2B /* ModelTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2D971E2978A1E2000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift in Sources */,
 				5B2D970229789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2D970E29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift in Sources */,
 				5B2D970C29789CB8000B8B2B /* _0230118_HasnainKhan_NYCSchoolsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
