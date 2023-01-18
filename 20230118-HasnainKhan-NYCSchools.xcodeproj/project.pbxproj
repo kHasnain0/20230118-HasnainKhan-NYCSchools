@@ -98,12 +98,10 @@
 		5B2D96E929789CB7000B8B2B /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				5B2D971F2978A424000B8B2B /* Assets */,
 				5B2D971C2978A181000B8B2B /* Controller */,
 				5B2D971B2978A179000B8B2B /* View */,
 				5B2D971A2978A16B000B8B2B /* Main */,
-				5B2D96F029789CB7000B8B2B /* Main.storyboard */,
-				5B2D96F329789CB8000B8B2B /* Assets.xcassets */,
-				5B2D96F529789CB8000B8B2B /* LaunchScreen.storyboard */,
 				5B2D96F829789CB8000B8B2B /* Info.plist */,
 			);
 			path = Application;
@@ -157,6 +155,16 @@
 				5B2D970029789CB8000B8B2B /* ModelTests */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		5B2D971F2978A424000B8B2B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D96F029789CB7000B8B2B /* Main.storyboard */,
+				5B2D96F329789CB8000B8B2B /* Assets.xcassets */,
+				5B2D96F529789CB8000B8B2B /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
