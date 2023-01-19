@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5B4C573C297910990067D8E7 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4C573B297910990067D8E7 /* Client.swift */; };
+		5B55E2BF297968670076B14D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B55E2B2297968270076B14D /* SwiftyJSON.framework */; };
+		5B55E2C0297968670076B14D /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B55E2B2297968270076B14D /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B775B532978B18B00733ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B522978B18B00733ACC /* AppDelegate.swift */; };
 		5B775B552978B18B00733ACC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B542978B18B00733ACC /* SceneDelegate.swift */; };
 		5B775B572978B18B00733ACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B562978B18B00733ACC /* ViewController.swift */; };
@@ -22,6 +24,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5B55E2B1297968270076B14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		5B55E2B3297968270076B14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		5B55E2B5297968270076B14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON macOS";
+		};
+		5B55E2B7297968270076B14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON macOS Tests";
+		};
+		5B55E2B9297968270076B14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
+		};
+		5B55E2BB297968270076B14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7236B4F61BAC14150020529B;
+			remoteInfo = "SwiftyJSON tvOS";
+		};
+		5B55E2BD297968270076B14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
+			remoteInfo = "SwiftyJSON tvOS Tests";
+		};
 		5B775B662978B18C00733ACC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5B775B472978B18B00733ACC /* Project object */;
@@ -101,6 +152,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5B55E2C0297968670076B14D /* SwiftyJSON.framework in Embed Frameworks */,
 				5B775BE82978BEBE00733ACC /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -111,6 +163,7 @@
 /* Begin PBXFileReference section */
 		5B4C5732297902E00067D8E7 /* 20230118-HasnainKhan-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230118-HasnainKhan-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4C573B297910990067D8E7 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = ../../SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
 		5B775B522978B18B00733ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B775B542978B18B00733ACC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5B775B562978B18B00733ACC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B55E2BF297968670076B14D /* SwiftyJSON.framework in Frameworks */,
 				5B775BE72978BEBE00733ACC /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,9 +206,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B55E29F297968270076B14D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B55E2B2297968270076B14D /* SwiftyJSON.framework */,
+				5B55E2B4297968270076B14D /* SwiftyJSON iOS Tests.xctest */,
+				5B55E2B6297968270076B14D /* SwiftyJSON.framework */,
+				5B55E2B8297968270076B14D /* SwiftyJSON macOS Tests.xctest */,
+				5B55E2BA297968270076B14D /* SwiftyJSON.framework */,
+				5B55E2BC297968270076B14D /* SwiftyJSON.framework */,
+				5B55E2BE297968270076B14D /* SwiftyJSON tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5B775B462978B18B00733ACC = {
 			isa = PBXGroup;
 			children = (
+				5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */,
 				5B775BCB2978BE9F00733ACC /* Alamofire.xcodeproj */,
 				5B775B862978B4FA00733ACC /* Tests */,
 				5B775B512978B18B00733ACC /* Application */,
@@ -358,6 +427,10 @@
 					ProductGroup = 5B775BCC2978BE9F00733ACC /* Products */;
 					ProjectRef = 5B775BCB2978BE9F00733ACC /* Alamofire.xcodeproj */;
 				},
+				{
+					ProductGroup = 5B55E29F297968270076B14D /* Products */;
+					ProjectRef = 5B55E29E297968270076B14D /* SwiftyJSON.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -369,6 +442,55 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5B55E2B2297968270076B14D /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 5B55E2B1297968270076B14D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5B55E2B4297968270076B14D /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = 5B55E2B3297968270076B14D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5B55E2B6297968270076B14D /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 5B55E2B5297968270076B14D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5B55E2B8297968270076B14D /* SwiftyJSON macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON macOS Tests.xctest";
+			remoteRef = 5B55E2B7297968270076B14D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5B55E2BA297968270076B14D /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 5B55E2B9297968270076B14D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5B55E2BC297968270076B14D /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 5B55E2BB297968270076B14D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5B55E2BE297968270076B14D /* SwiftyJSON tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON tvOS Tests.xctest";
+			remoteRef = 5B55E2BD297968270076B14D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5B775BD72978BE9F00733ACC /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
