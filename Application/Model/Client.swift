@@ -79,9 +79,11 @@ class Client {
                 print(error)
             }
             
-            return []
             
         }
+        
+        return []
+        
         
     }
         
