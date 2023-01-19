@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4C573C297910990067D8E7 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4C573B297910990067D8E7 /* Client.swift */; };
 		5B775B532978B18B00733ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B522978B18B00733ACC /* AppDelegate.swift */; };
 		5B775B552978B18B00733ACC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B542978B18B00733ACC /* SceneDelegate.swift */; };
 		5B775B572978B18B00733ACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B562978B18B00733ACC /* ViewController.swift */; };
 		5B775B5A2978B18B00733ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B775B582978B18B00733ACC /* Main.storyboard */; };
 		5B775B5C2978B18C00733ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B775B5B2978B18C00733ACC /* Assets.xcassets */; };
 		5B775B5F2978B18C00733ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B775B5D2978B18C00733ACC /* LaunchScreen.storyboard */; };
-		5B775B6A2978B18C00733ACC /* APITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B692978B18C00733ACC /* APITest.swift */; };
-		5B775B742978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B732978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITests.swift */; };
-		5B775B762978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B752978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift */; };
+		5B775B6A2978B18C00733ACC /* ClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B692978B18C00733ACC /* ClientTest.swift */; };
 		5B775BE72978BEBE00733ACC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B775BD72978BE9F00733ACC /* Alamofire.framework */; };
 		5B775BE82978BEBE00733ACC /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B775BD72978BE9F00733ACC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B775BFA2978DDEF00733ACC /* ViewLaunchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B752978B18C00733ACC /* ViewLaunchTest.swift */; };
+		5B775BFB2978DDF400733ACC /* ViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B732978B18C00733ACC /* ViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B4C5732297902E00067D8E7 /* 20230118-HasnainKhan-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230118-HasnainKhan-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4C573B297910990067D8E7 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		5B775B522978B18B00733ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B775B542978B18B00733ACC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5B775B562978B18B00733ACC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,13 +118,12 @@
 		5B775B5B2978B18C00733ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B775B5E2978B18C00733ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B775B602978B18C00733ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B775B692978B18C00733ACC /* APITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITest.swift; sourceTree = "<group>"; };
-		5B775B732978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230118_HasnainKhan_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
-		5B775B752978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B775B692978B18C00733ACC /* ClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTest.swift; sourceTree = "<group>"; };
+		5B775B732978B18C00733ACC /* ViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTest.swift; sourceTree = "<group>"; };
+		5B775B752978B18C00733ACC /* ViewLaunchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLaunchTest.swift; sourceTree = "<group>"; };
 		5B775BCB2978BE9F00733ACC /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
-		5B775BE92978BEBE00733ACC /* 20230118-HasnainKhan-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "20230118-HasnainKhan-NYCSchools.app"; path = "/Users/user231915/Documents/workspace/20230118-HasnainKhan-NYCSchools/build/Debug-iphoneos/20230118-HasnainKhan-NYCSchools.app"; sourceTree = "<absolute>"; };
-		5B775BEE2978CD3E00733ACC /* 20230118-HasnainKhan-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "20230118-HasnainKhan-NYCSchoolsTests.xctest"; path = "/Users/user231915/Documents/workspace/20230118-HasnainKhan-NYCSchools/build/Debug-iphoneos/20230118-HasnainKhan-NYCSchoolsTests.xctest"; sourceTree = "<absolute>"; };
-		5B775BEF2978CD3E00733ACC /* 20230118-HasnainKhan-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "20230118-HasnainKhan-NYCSchoolsUITests.xctest"; path = "/Users/user231915/Documents/workspace/20230118-HasnainKhan-NYCSchools/build/Debug-iphoneos/20230118-HasnainKhan-NYCSchoolsUITests.xctest"; sourceTree = "<absolute>"; };
+		5B775BF82978DBB400733ACC /* 20230118-HasnainKhan-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230118-HasnainKhan-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B775BF92978DBBD00733ACC /* 20230118-HasnainKhan-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230118-HasnainKhan-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,9 @@
 				5B775B862978B4FA00733ACC /* Tests */,
 				5B775B512978B18B00733ACC /* Application */,
 				5B775BE62978BEBE00733ACC /* Frameworks */,
+				5B775BF82978DBB400733ACC /* 20230118-HasnainKhan-NYCSchoolsTests.xctest */,
+				5B775BF92978DBBD00733ACC /* 20230118-HasnainKhan-NYCSchoolsUITests.xctest */,
+				5B4C5732297902E00067D8E7 /* 20230118-HasnainKhan-NYCSchools.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,7 +179,7 @@
 		5B775B682978B18C00733ACC /* ModelTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B775B692978B18C00733ACC /* APITest.swift */,
+				5B775B692978B18C00733ACC /* ClientTest.swift */,
 			);
 			path = ModelTests;
 			sourceTree = "<group>";
@@ -182,8 +187,8 @@
 		5B775B722978B18C00733ACC /* UITests */ = {
 			isa = PBXGroup;
 			children = (
-				5B775B732978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITests.swift */,
-				5B775B752978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift */,
+				5B775B732978B18C00733ACC /* ViewTest.swift */,
+				5B775B752978B18C00733ACC /* ViewLaunchTest.swift */,
 			);
 			path = UITests;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				5B775B522978B18B00733ACC /* AppDelegate.swift */,
+				5B4C573B297910990067D8E7 /* Client.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -274,7 +280,7 @@
 			packageProductDependencies = (
 			);
 			productName = "20230118-HasnainKhan-NYCSchools";
-			productReference = 5B775BE92978BEBE00733ACC /* 20230118-HasnainKhan-NYCSchools.app */;
+			productReference = 5B4C5732297902E00067D8E7 /* 20230118-HasnainKhan-NYCSchools.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5B775B642978B18C00733ACC /* 20230118-HasnainKhan-NYCSchoolsTests */ = {
@@ -292,7 +298,7 @@
 			);
 			name = "20230118-HasnainKhan-NYCSchoolsTests";
 			productName = "20230118-HasnainKhan-NYCSchoolsTests";
-			productReference = 5B775BEE2978CD3E00733ACC /* 20230118-HasnainKhan-NYCSchoolsTests.xctest */;
+			productReference = 5B775BF82978DBB400733ACC /* 20230118-HasnainKhan-NYCSchoolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		5B775B6E2978B18C00733ACC /* 20230118-HasnainKhan-NYCSchoolsUITests */ = {
@@ -310,7 +316,7 @@
 			);
 			name = "20230118-HasnainKhan-NYCSchoolsUITests";
 			productName = "20230118-HasnainKhan-NYCSchoolsUITests";
-			productReference = 5B775BEF2978CD3E00733ACC /* 20230118-HasnainKhan-NYCSchoolsUITests.xctest */;
+			productReference = 5B775BF92978DBBD00733ACC /* 20230118-HasnainKhan-NYCSchoolsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -455,6 +461,7 @@
 			files = (
 				5B775B572978B18B00733ACC /* ViewController.swift in Sources */,
 				5B775B532978B18B00733ACC /* AppDelegate.swift in Sources */,
+				5B4C573C297910990067D8E7 /* Client.swift in Sources */,
 				5B775B552978B18B00733ACC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,7 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B775B6A2978B18C00733ACC /* APITest.swift in Sources */,
+				5B775B6A2978B18C00733ACC /* ClientTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,8 +478,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B775B762978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITestsLaunchTests.swift in Sources */,
-				5B775B742978B18C00733ACC /* _0230118_HasnainKhan_NYCSchoolsUITests.swift in Sources */,
+				5B775BFB2978DDF400733ACC /* ViewTest.swift in Sources */,
+				5B775BFA2978DDEF00733ACC /* ViewLaunchTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,7 +698,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.khasnain0.-0230118-HasnainKhan-NYCSchoolsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -710,7 +717,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.khasnain0.-0230118-HasnainKhan-NYCSchoolsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -728,6 +735,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.khasnain0.-0230118-HasnainKhan-NYCSchoolsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -745,6 +753,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.khasnain0.-0230118-HasnainKhan-NYCSchoolsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

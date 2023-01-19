@@ -2,12 +2,12 @@
 //  AppDelegate.swift
 //  20230118-HasnainKhan-NYCSchools
 //
-//  Created by user231915 on 1/18/23.
+//  Created by hasnain on 1/18/23.
 //
 
 import UIKit
 
-@main
+@main //annotation calls main method in UIApplicationDelegate as entry point and root object
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
