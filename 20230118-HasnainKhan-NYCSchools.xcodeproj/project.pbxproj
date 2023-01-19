@@ -124,7 +124,6 @@
 		5B775BCB2978BE9F00733ACC /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		5B775BF82978DBB400733ACC /* 20230118-HasnainKhan-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230118-HasnainKhan-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B775BF92978DBBD00733ACC /* 20230118-HasnainKhan-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230118-HasnainKhan-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BF362AC29796E9A00987202 /* SwiftyJSON.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = SwiftyJSON.xcworkspace; path = SwiftyJSON/SwiftyJSON.xcworkspace; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +155,6 @@
 		5B775B462978B18B00733ACC = {
 			isa = PBXGroup;
 			children = (
-				5BF362AC29796E9A00987202 /* SwiftyJSON.xcworkspace */,
 				5B775BCB2978BE9F00733ACC /* Alamofire.xcodeproj */,
 				5B775B862978B4FA00733ACC /* Tests */,
 				5B775B512978B18B00733ACC /* Application */,
