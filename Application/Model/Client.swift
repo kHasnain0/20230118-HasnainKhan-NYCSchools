@@ -4,6 +4,7 @@
 //
 //  Created by hasnain on 1/19/23.
 //
+import SwiftyJSON
 import Alamofire
 import Foundation
 //dbn=?11X253
@@ -67,11 +68,22 @@ class Client {
         //}
         
         
-        return []
+        
+        
+        request.validate().responseJSON { response in
+            switch response.result {
+            case .success(let value):
+                let json = JSON(value)
+                print("JSON: \(json)")
+            case .failure(let error):
+                print(error)
+            }
+            
+            return []
+            
+        }
         
     }
-    
-
         
       
 }
