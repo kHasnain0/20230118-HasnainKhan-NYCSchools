@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct HighSchoolStruct{
+struct HighSchoolStruct: Equatable{
     
     
     var school_name: String

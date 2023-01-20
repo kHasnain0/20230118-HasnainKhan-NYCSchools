@@ -23,7 +23,7 @@ class ViewController: UICollectionViewController {
         
         let cellRegistration = UICollectionView.CellRegistration { (cell: UICollectionViewListCell, indexPath: IndexPath, itemIdentifier: String) in
             
-            let reminder = Reminder.sampleData[indexPath.item]
+            let reminder = HighSchoolStructTest.sampleData[indexPath.item]
             
             var contentConfiguration = cell.defaultContentConfiguration()
             
@@ -40,7 +40,7 @@ class ViewController: UICollectionViewController {
         
         var snapshot = Snapshot()
         snapshot.appendSections([0])
-        snapshot.appendItems(Reminder.sampleData.map { $0.school_name })
+        snapshot.appendItems(HighSchoolStructTest.sampleData.map { $0.school_name })
 
         dataSource.apply(snapshot)
 

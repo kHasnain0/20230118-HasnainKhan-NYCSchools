@@ -13,12 +13,15 @@ final class ClientTest: XCTestCase {
 
    
 
-    func testHighSchoolListFeature() throws {
-       
-        var schoolList = Client.getInstance().getHighSchoolList()
+    func testGetHighSchoolJSONFeature() throws {
+        let parameters = ["dbn":"11X253"]
+        var factory = Client.getInstance().createHighSchoolList(inParam: parameters)
         
-        
-        XCTAssertEqual(schoolList, [])
+        var toCheck = HighSchoolStruct(school_name: "BRONX HIGH SCHOOL FOR WRITING AND COMMUNICATION ARTS",
+                                              writing_score: "390", reading_score: "400",
+                                              math_score: "357", dbn: "11X253", test_takers: "46")
+
+        XCTAssertEqual(factory.getList()[0], toCheck)
     }
 
   

@@ -11,7 +11,7 @@ import Foundation
 
 
 
-struct Reminder {
+struct HighSchoolStructTest {
     
     var school_name: String
     
@@ -33,13 +33,13 @@ struct Reminder {
     
 #if DEBUG
 
-extension Reminder {
+extension HighSchoolStructTest {
 
     static var sampleData = [
 
-        Reminder(school_name: "NY Public",
-                 writing_score: "", reading_score: "",
-                 math_score: "", dbn: "", test_takers: "")
+        HighSchoolStructTest(school_name: "BRONX HIGH SCHOOL FOR WRITING AND COMMUNICATION ARTS",
+                                              writing_score: "390", reading_score: "400",
+                                              math_score: "357", dbn: "11X253", test_takers: "46")
                     
             
     ]
