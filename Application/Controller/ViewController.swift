@@ -7,35 +7,64 @@
 import Alamofire
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UICollectionViewController {
+    typealias DataSource = UICollectionViewDiffableDataSource<Int, String>
+    typealias Snapshot = NSDiffableDataSourceSnapshot<Int, String>
+    var dataSource: DataSource!
     
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        let listLayout = listLayout()
         
-        let url = "https://data.cityofnewyork.us/resource/f9bf-2cp4.json?dbn=11X253"
-       
-       /* AF.request(url, method: .get).responseJSON { (response) in
-            switch response.result{
-            case .success:
-                print(response.result)
-                break
-            case .failure:
-                break
-            }
-        }
-        */
+        collectionView.collectionViewLayout = listLayout
         
-        struct DecodableType: Decodable { let school_name: String }
-        let request = AF.request(url, method: .get)
-            // 2
-        request.responseDecodable(of: DecodableType.self) { response in
-            debugPrint("Response: \(response)")
+        let cellRegistration = UICollectionView.CellRegistration { (cell: UICollectionViewListCell, indexPath: IndexPath, itemIdentifier: String) in
+            
+            let reminder = Reminder.sampleData[indexPath.item]
+            
+            var contentConfiguration = cell.defaultContentConfiguration()
+            
+            contentConfiguration.text = reminder.school_name
+            
+            cell.contentConfiguration = contentConfiguration
+            
         }
-         
+        
+        dataSource = DataSource(collectionView: collectionView) { (collectionView: UICollectionView, indexPath: IndexPath, itemIdentifier: String) in
+            
+            return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: itemIdentifier)
+        }
+        
+        var snapshot = Snapshot()
+        snapshot.appendSections([0])
+        snapshot.appendItems(Reminder.sampleData.map { $0.school_name })
+
+        dataSource.apply(snapshot)
+
+                
+
+        collectionView.dataSource = dataSource
+        
         
     }
+         
+        
+    private func listLayout() -> UICollectionViewCompositionalLayout {
+
+           var listConfiguration = UICollectionLayoutListConfiguration(appearance: .grouped)
+        
+                listConfiguration.showsSeparators = false
+
+                listConfiguration.backgroundColor = .clear
+
+                return UICollectionViewCompositionalLayout.list(using: listConfiguration)
+
+       }
+    
+   
     
 }
         
