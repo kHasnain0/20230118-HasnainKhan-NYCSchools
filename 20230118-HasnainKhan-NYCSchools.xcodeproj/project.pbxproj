@@ -11,7 +11,7 @@
 		5B096957297973CA008DBF75 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B09694929797385008DBF75 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B3867FC2979FE1200C2F107 /* HighSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3867FB2979FE1200C2F107 /* HighSchool.swift */; };
 		5B386810297A48FF00C2F107 /* HighSchoolFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B38680F297A48FF00C2F107 /* HighSchoolFactory.swift */; };
-		5B386812297A4EBF00C2F107 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B386811297A4EBF00C2F107 /* Reminder.swift */; };
+		5B386812297A4EBF00C2F107 /* HighSchoolStructTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B386811297A4EBF00C2F107 /* HighSchoolStructTest.swift */; };
 		5B386814297A56B100C2F107 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B386813297A56B100C2F107 /* DetailViewController.swift */; };
 		5B4C573C297910990067D8E7 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4C573B297910990067D8E7 /* Client.swift */; };
 		5B775B532978B18B00733ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B775B522978B18B00733ACC /* AppDelegate.swift */; };
@@ -169,7 +169,7 @@
 		5B09693529797385008DBF75 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
 		5B3867FB2979FE1200C2F107 /* HighSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchool.swift; sourceTree = "<group>"; };
 		5B38680F297A48FF00C2F107 /* HighSchoolFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolFactory.swift; sourceTree = "<group>"; };
-		5B386811297A4EBF00C2F107 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		5B386811297A4EBF00C2F107 /* HighSchoolStructTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolStructTest.swift; sourceTree = "<group>"; };
 		5B386813297A56B100C2F107 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5B4C5732297902E00067D8E7 /* 20230118-HasnainKhan-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230118-HasnainKhan-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4C573B297910990067D8E7 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
@@ -279,7 +279,7 @@
 				5B4C573B297910990067D8E7 /* Client.swift */,
 				5B3867FB2979FE1200C2F107 /* HighSchool.swift */,
 				5B38680F297A48FF00C2F107 /* HighSchoolFactory.swift */,
-				5B386811297A4EBF00C2F107 /* Reminder.swift */,
+				5B386811297A4EBF00C2F107 /* HighSchoolStructTest.swift */,
 				5B9FA367297A72C8006FF3F2 /* HighSchoolStruct.swift */,
 			);
 			path = Model;
@@ -598,7 +598,7 @@
 			files = (
 				5B775B572978B18B00733ACC /* ViewController.swift in Sources */,
 				5B386814297A56B100C2F107 /* DetailViewController.swift in Sources */,
-				5B386812297A4EBF00C2F107 /* Reminder.swift in Sources */,
+				5B386812297A4EBF00C2F107 /* HighSchoolStructTest.swift in Sources */,
 				5B9FA368297A72C8006FF3F2 /* HighSchoolStruct.swift in Sources */,
 				5B386810297A48FF00C2F107 /* HighSchoolFactory.swift in Sources */,
 				5B775B532978B18B00733ACC /* AppDelegate.swift in Sources */,

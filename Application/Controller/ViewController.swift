@@ -56,7 +56,7 @@ class ViewController: UICollectionViewController {
 
            var listConfiguration = UICollectionLayoutListConfiguration(appearance: .grouped)
         
-                listConfiguration.showsSeparators = false
+                listConfiguration.showsSeparators = true
 
                 listConfiguration.backgroundColor = .clear
 
