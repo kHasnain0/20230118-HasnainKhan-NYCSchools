@@ -7,8 +7,10 @@
 import SwiftyJSON
 import Alamofire
 import Foundation
+ 
 //dbn=?11X253
 class Client {
+    
     
     private  let highSchoolURL =
     "https://data.cityofnewyork.us/resource/s3k6-pzi2.json"
@@ -37,7 +39,7 @@ class Client {
         return sharedInstance
     }
     
-    func callServer(url: String, accept: String, parameters: Dictionary<String,String> ) -> DataRequest{
+    private func callServer(url: String, accept: String ) -> DataRequest{
         
         var headers: HTTPHeaders?
         
@@ -49,21 +51,66 @@ class Client {
         }
         
        // let parameters = ["dbn":"11X253"]
+        //let parameters = ["$select":"dbn"]
+        let parameters = ["dbn":"11X253"]
+        let parameters = ForeignID().
        
-        let request = AF.request(url, method: .get, parameters: parameters, headers: headers)
-        return request
+        return AF.request(url, method: .get, parameters: parameters, headers: headers)
+        
     }
     
+    
+    func getHighSchoolList() -> NSArray{
+        struct highSchool: Decodable {let school_name: String }
+        
+      //  struct dataSet: Decodable{let data: [HighSchool]}
+        
+        var request = callServer(url: testScoresURL,  accept: "json")
+      /*
+        request.responseDecodable(of: dataSet.self, queue: .main, decoder: JSONDecoder()) { response in
+            
+            switch response.result {
+            case let .success(data):
+                // success
+                print(data)
+            case let .failure(error):
+                // error
+                print(error.localizedDescription)
+                
+            }
+        }
+           */
+        var jsonObj: JSON
+        var result = [2,1]
+        request.responseJSON { response in
+            switch response.result {
+               case .success(let value):
+                    let json = JSON(value)
+                   // jsonObj = json
+                   print("JSON: \(json)")
+               case .failure(let error):
+                   print(error)
+               }
+        }
+        
+         
+        
+        return result as NSArray
+    }
+    
+    /*
     func getHighSchoolList() -> NSArray  {
         //struct DecodableType: Decodable {let Array: String}
       //  struct DecodableType : Decodable
        // { }
         
-        let headers: HTTPHeaders = [
-            "Accept": "application/json"
-        ]
-        let parameters = ["dbn":"11X253"]
-        let request = AF.request(testScoresURL, method: .get, headers: headers)
+      //  let headers: HTTPHeaders = [
+       //     "Accept": "application/json"
+      //  ]
+        //let parameters = ["dbn":"11X253"]
+        let request = callServer(highSchoolURL, "json")
+        
+        
         
         //let data = Data("data".utf8)
         //request.responseresponseDecodable(of: DecodableType.self) { response in
@@ -118,6 +165,7 @@ class Client {
         return []
             
         }
+     */
         
         
         

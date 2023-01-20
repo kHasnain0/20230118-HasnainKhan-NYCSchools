@@ -31,7 +31,6 @@ class HighSchool {
             self.school_email = school_email
             self.grades = Scores()
         } catch {throw MyError.runtimeError(nilError)}
-        
     }
     //Getter Methods
     public func getDbn() -> String {return self.dbn }
